@@ -1,0 +1,23 @@
+{
+  "name": "devsoutinho-blog-alurajs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "next": "latest",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "remark": "^12.0.1",
+    "remark-html": "^12.0.0",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0",
+    "gh-pages": "^3.1.0"
+  },
+  "license": "ISC"
+}
