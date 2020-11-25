@@ -8,8 +8,13 @@ export default function Home({ allPosts }) {
       <header className="headerContainer">
         <img src="https://unavatar.now.sh/github/CarlosVitr" />
         <h1>
-          Carlo's Blog
+          Carlos Blog
         </h1>
+       <h4>
+      <a href="/sobre">
+          About Me
+      </a>
+       </h4>
       </header>
 
       <section className="postsContainer">
