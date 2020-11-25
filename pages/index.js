@@ -10,11 +10,6 @@ export default function Home({ allPosts }) {
         <h1>
           Carlos Blog
         </h1>
-       <h4>
-      <a href="/sobre">
-          About Me
-      </a>
-       </h4>
       </header>
 
       <section className="postsContainer">
@@ -31,7 +26,11 @@ export default function Home({ allPosts }) {
           </article>
         ))}
       </section>
-
+      <h4>
+      <a href="/sobre">
+          About Me
+      </a>
+       </h4>
       <Footer
         facebook=""
         twitter="ClsVitor"
