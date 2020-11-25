@@ -6,9 +6,9 @@ export default function Home({ allPosts }) {
   return (
     <div>
       <header className="headerContainer">
-        <img src="https://unavatar.now.sh/github/omariosouto" />
+        <img src="https://unavatar.now.sh/github/CarlosVitr" />
         <h1>
-          DevSoutinho's Blog
+          Carlo's Blog
         </h1>
       </header>
 
@@ -28,10 +28,10 @@ export default function Home({ allPosts }) {
       </section>
 
       <Footer
-        facebook="omariosouto"
-        twitter="omariosouto"
-        linkedin="omariosouto"
-        github="omariosouto"
+        facebook=""
+        twitter="ClsVitor"
+        linkedin=""
+        github="carlosvitr"
       />
     </div>
   )
